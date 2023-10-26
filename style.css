@@ -8,13 +8,18 @@
 }
 
 body{
-    background: #0439e9ea;
+    background: black;
 
 }
+:root {
+    --textb: #000000;
+    --button: #07e224;
+    --background: linear-gradient(45deg, #444447, #000000);
+  }
 
 ::selection{
     color: #fff;
-    background: #0439e9ea;
+    background: #ffffffea;
 }
 
 .info_box,
@@ -58,7 +63,7 @@ body{
 
 .info_box{
     width: 540px;
-    background: #fff;
+    background: #07e224;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -80,6 +85,9 @@ body{
 
 .info_box .info-list{
     padding: 15px 30px;
+}
+.info-list{
+    background: #07e224;
 }
 
 .info_box .info-list .info{
@@ -110,7 +118,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #0439e9ea;
+    border: 1px solid black;
     transition: all 0.3s ease;
 }
 
@@ -377,19 +385,19 @@ footer button.show{
 
 .buttons button.restart{
     color: #fff;
-    background: #0439e9ea;
+    background: #000000ea;
 }
 
 .buttons button.restart:hover{
-    background: #0263ca;
+    background: #000000;
 }
 
 .buttons button.quit{
-    color: #0439e9ea;
+    color: #c4c4c4ea;
     background: #fff;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #0439e9ea;
+    background: #ffffffea;
 }
