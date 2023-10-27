@@ -2,7 +2,7 @@ let questions = [
   {
     numb: 1,
     question: "Which of these is not a characteristic of fitness?",
-    answer: "Fitness is environment-specific.",
+    answer: "Higher reproductive rate means higher fitness.",
     options: [
       "Fitness is environment-specific.",
       "Fitness is species-specific.",
