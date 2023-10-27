@@ -61,7 +61,8 @@ let questions = [
     "options": [
       "original forest --> dissection --> attrition --> fragmentation --> perforation",
       "original forest --> dissection --> perforation --> attrition --> fragmentation",
-      "original forest --> dissection --> fragmentation --> perforation --> attrition"
+      "original forest --> dissection --> fragmentation --> perforation --> attrition",
+      " original forest --> dissection --> perforation --> fragmentation --> attrition "
     ]
   },
   {
